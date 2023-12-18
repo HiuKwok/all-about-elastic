@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>directInsert</module>
+        <module>directQuery</module>
     </modules>
 
     <properties>
