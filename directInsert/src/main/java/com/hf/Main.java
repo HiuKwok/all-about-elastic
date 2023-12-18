@@ -15,8 +15,6 @@ import java.util.random.RandomGenerator;
 /**
  * Ref: https://www.baeldung.com/elasticsearch-java
  *
- * Start a demo ES container by: docker run -d --name elastic-test -p 9200:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" docker.elastic.co/elasticsearch/elasticsearch:8.8.2
- *
  * Demo app to insert a record directly to Elasticsearch, which is not recommended thou, should be done over MQ with LogStash.
  */
 public class Main {
